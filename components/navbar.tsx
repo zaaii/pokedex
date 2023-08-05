@@ -27,7 +27,6 @@ export default function NavigationBar() {
     <Navbar
       isBordered
       isMenuOpen={isMenuOpen}
-      onMenuOpenChange={setIsMenuOpen}
       className="justify-evenly"
     >
       <NavbarContent className="sm:hidden" justify="start">
